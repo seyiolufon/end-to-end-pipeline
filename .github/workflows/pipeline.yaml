@@ -19,6 +19,9 @@ jobs:
           fetch-depth: 0
 
       - name: Setup NodeJS
-        uses: action/setup-node@v4
+        uses: action/setup-node@v3
         with:
           node-version: "14"
+
+      - name: Install node dependencies
+        run: npm install
