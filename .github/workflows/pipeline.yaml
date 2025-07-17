@@ -68,7 +68,7 @@ jobs:
             --insecure
 
     - name: update deployment manifest
-      run:
+      run: |
         git config user.name "${{ secrets.GIT_USERNAME }}"
         git config user.email "${{ secret.GIT_EMAIL }}"
         git fetch origin
