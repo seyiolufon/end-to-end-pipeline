@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: planning-app
+  namespace: planning-app
 spec:
   replicas: 2  # Number of pod replicas
   selector:
