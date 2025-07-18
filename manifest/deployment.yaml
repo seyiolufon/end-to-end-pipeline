@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: planning-app
-          image: seyiolufon/planning-app:036708237650922848864e5388c0fdfeef391dfa
+          image: seyiolufon/planning-app:21dfae855ab55a1adfa3cbd92a26651f97fdd837
           ports:
             - containerPort: 3000
